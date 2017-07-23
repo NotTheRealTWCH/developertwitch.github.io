@@ -30,7 +30,7 @@ nav {
 	align-items: center;
 	color: #eee;
 	display: flex;
-	font-size: 2.8rem;
+	font-size: 3.3vw;
 	height: 100%;
 	justify-content: center;
 	left: 0;
@@ -163,13 +163,19 @@ nav {
 	color: #969896;
 }
 
+@media (orientation: portrait) {
+	#backgroundCodeEditor {
+		font-size: 1.75vh;
+	}
+}
+
 @media (min-width: 1280px) {
 	#backgroundCodeEditor {
 		font-size: 1.25vw;
 	}
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
 	#backgroundCodeEditor__tree {
 		display: block;
 	}
