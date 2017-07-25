@@ -26,11 +26,10 @@ nav {
 	position: relative;
 }
 
-#h1-C {
+#heading-C {
 	align-items: center;
 	color: #eee;
 	display: flex;
-	font-size: 3.3vw;
 	height: 100%;
 	justify-content: center;
 	left: 0;
@@ -38,6 +37,15 @@ nav {
 	right: 0;
 	text-align: center;
 	z-index: 1;
+}
+
+h1 {
+	font-size: 7vw;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5vw;
 }
 
 #landingPage__mask {
