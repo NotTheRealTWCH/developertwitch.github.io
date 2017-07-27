@@ -195,3 +195,9 @@ h2 {
 		font-size: calc(76px + 1vw);
 	}
 }
+
+@supports (display: grid) {
+	#heading-C {
+		color: red;
+	}
+}
