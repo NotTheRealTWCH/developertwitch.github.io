@@ -8,12 +8,18 @@ br {
 }
 
 header {
+	background-color: #0f1012;
+}
+
+#header-C {
 	align-items: center;
-	 background-color: #0f1012;
-	 color: #eee;
-	 display: flex;
-	 height: 100px;
-	 justify-content: space-between;
+	color: #eee;
+	display: flex;
+	height: 100px;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1440px;
+	padding: 0 30px;
 }
 
 #logo {
@@ -52,6 +58,23 @@ h1 {
 
 h2 {
 	font-size: 0.28em;
+	margin-top: 10px;
+}
+
+#landingPage__CallToActionBtn-C {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 450px;
+}
+
+.callToActionBtn {
+	background-color: #1871b5;
+	border: none;
+	color: white;
+	font-size: 20px;
+	padding: 10px 40px;
 }
 
 #landingPage__mask {
@@ -192,7 +215,7 @@ h2 {
 	}
 }
 
-@media (min-Width: 900px) {
+@media (min-Width: 850px) {
 	#heading-C {
 		font-size: calc(76px + 1vw);
 	}
