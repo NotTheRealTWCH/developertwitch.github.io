@@ -19,12 +19,14 @@ header {
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 1440px;
-	padding: 0 30px;
+	padding: 0 55px;
 }
 
 #logo {
 	font-size: 2.5rem;
 	font-weight: bold;
+	
+	display: none;
 }
 
 nav {
@@ -34,6 +36,7 @@ nav {
 #landingPage {
 	color: #bbb;
 	height: calc(100vh - 100px);
+	max-height: calc();
 	position: relative;
 }
 
@@ -52,12 +55,18 @@ nav {
 }
 
 h1 {
-	font-size: 1em;
-	font-weight: bold;
+	font-family: 'Roboto';
+	font-size: 1.1em;
+	font-weight: 500;
+	letter-spacing: 2px;
+	line-height: 1.1em;
 }
 
 h2 {
-	font-size: 0.28em;
+	font-family: 'Roboto';
+	font-size: 0.22em;
+
+	letter-spacing: 2px;
 	margin-top: 10px;
 }
 
@@ -67,6 +76,8 @@ h2 {
 	margin: 0 auto;
 	margin-top: 50px;
 	width: 450px;
+	
+	display: none;
 }
 
 .callToActionBtn {
