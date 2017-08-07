@@ -36,7 +36,6 @@ nav {
 #landingPage {
 	color: #bbb;
 	height: calc(100vh - 100px);
-	max-height: calc();
 	position: relative;
 }
 
@@ -215,13 +214,17 @@ h2 {
 	}
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px) and (orientation: landscape) {
+	#landingPage {
+		max-height: 72vw;
+	}
+	
 	#backgroundCodeEditor {
 		font-size: 1.25vw;
 	}
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1100px){
 	#backgroundCodeEditor__tree {
 		display: flex;
 		flex-direction: column;
