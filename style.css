@@ -15,7 +15,7 @@ header {
 	align-items: center;
 	color: #eee;
 	display: flex;
-	height: 90px;
+	height: 80px;
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 1440px;
@@ -52,7 +52,7 @@ nav {
 
 #landingPage {
 	color: #bbb;
-	height: calc(100vh - 90px);
+	height: calc(100vh - 80px);
 	position: relative;
 }
 
