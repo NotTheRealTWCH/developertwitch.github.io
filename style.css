@@ -12,6 +12,8 @@ header {
 }
 
 #header-C {
+	border: 1px solid red;
+	
 	align-items: center;
 	color: #eee;
 	display: flex;
@@ -19,7 +21,7 @@ header {
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 1440px;
-	padding: 0 50px;
+	padding: 0 20px;
 }
 
 #logo--big {
@@ -231,6 +233,10 @@ h2 {
 }
 
 @media (min-width: 500px) {
+	#header-C {
+		padding: 0 50px;
+	}
+	
 	h2 {
 		font-size: calc(13.5px + 0.5vw);
 	}
