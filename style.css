@@ -231,8 +231,14 @@ h2 {
 	}
 }
 
-@media (min-Width: 850px) {
-	#heading-C {
-		font-size: calc(76px + 1vw);
+@media (min-width: 500px) {
+	h2 {
+		font-size: calc(13.5px + 0.5vw);
+	}
+}
+
+@media (min-width: 850px) {
+	h1 {
+		font-size: calc(84px + 1.1vw);
 	}
 }
