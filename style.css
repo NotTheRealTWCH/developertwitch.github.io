@@ -22,7 +22,13 @@ header {
 	padding: 0 50px;
 }
 
-#logo {
+#logo--big {
+	display: none;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+#logo--small {
 	font-size: 2.5rem;
 	font-weight: bold;
 }
@@ -32,6 +38,16 @@ nav {
 	font-size: 1.1rem;
 	justify-content: space-between;
 	width: 250px;
+}
+
+.navLink {
+	border-bottom: 2px solid rgba(0,0,0,0);
+	padding-bottom: 4px;
+	padding-top: 6px;
+}
+
+.navLink:hover {
+	border-color: #eee;
 }
 
 #landingPage {
@@ -214,13 +230,25 @@ h2 {
 	}
 }
 
-@media (min-width: 1280px) and (orientation: landscape) {
-	#landingPage {
-		max-height: 72vw;
+@media (min-width: 500px) {
+	h2 {
+		font-size: calc(13.5px + 0.5vw);
+	}
+}
+
+@media (min-width: 550px) {
+	#logo--big {
+		display: block;
 	}
 	
-	#backgroundCodeEditor {
-		font-size: 1.25vw;
+	#logo--small {
+		display: none;
+	}
+}
+
+@media (min-width: 850px) {
+	h1 {
+		font-size: calc(84px + 1.1vw);
 	}
 }
 
@@ -231,14 +259,12 @@ h2 {
 	}
 }
 
-@media (min-width: 500px) {
-	h2 {
-		font-size: calc(13.5px + 0.5vw);
+@media (min-width: 1280px) and (orientation: landscape) {
+	#landingPage {
+		max-height: 72vw;
 	}
-}
-
-@media (min-width: 850px) {
-	h1 {
-		font-size: calc(84px + 1.1vw);
+	
+	#backgroundCodeEditor {
+		font-size: 1.25vw;
 	}
 }
