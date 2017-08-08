@@ -19,18 +19,19 @@ header {
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 1440px;
-	padding: 0 55px;
+	padding: 0 50px;
 }
 
 #logo {
 	font-size: 2.5rem;
 	font-weight: bold;
-	
-	display: none;
 }
 
 nav {
-	
+	display: flex;
+	font-size: 1.1rem;
+	justify-content: space-between;
+	width: 250px;
 }
 
 #landingPage {
@@ -63,8 +64,7 @@ h1 {
 
 h2 {
 	font-family: 'Roboto';
-	font-size: 0.22em;
-
+	font-size: 0.26em;
 	letter-spacing: 2px;
 	margin-top: 10px;
 }
