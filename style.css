@@ -12,8 +12,6 @@ header {
 }
 
 #header-C {
-	border: 1px solid red;
-	
 	align-items: center;
 	color: #eee;
 	display: flex;
