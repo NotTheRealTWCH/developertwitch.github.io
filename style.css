@@ -41,7 +41,7 @@ nav {
 	justify-content: space-between;
 	max-width: 250px;
 	min-width: 200px;
-	width: calc(183px + 5.2vw);
+	width: calc(136px + 20vw);
 }
 
 .navLink {
