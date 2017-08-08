@@ -56,7 +56,9 @@ nav {
 
 #landingPage {
 	color: #bbb;
-	height: calc(100vh - 65px);
+	height: calc(100vh - (58px + 1.7vw));
+	max-height: calc(100vh - 65px);
+	min-height: calc(100vh - 80px);
 	position: relative;
 }
 
