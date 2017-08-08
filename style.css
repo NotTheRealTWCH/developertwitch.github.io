@@ -39,7 +39,9 @@ nav {
 	display: flex;
 	font-size: 1.1rem;
 	justify-content: space-between;
-	width: 200px;
+	max-width: 250px;
+	min-width: 200px;
+	width: calc(183px + 5.2vw);
 }
 
 .navLink {
