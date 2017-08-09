@@ -21,7 +21,7 @@ header {
 	max-height: 80px;
 	max-width: 1440px;
 	min-height: 65px;
-	padding: 0 20px;
+	padding: 0 calc(2.1px + 5.6vw);
 }
 
 #logo--big {
@@ -236,11 +236,7 @@ h2 {
 	}
 }
 
-@media (min-width: 500px) {
-	#header-C {
-		padding: 0 50px;
-	}
-	
+@media (min-width: 500px) {	
 	h2 {
 		font-size: calc(13.5px + 0.5vw);
 	}
@@ -257,6 +253,10 @@ h2 {
 }
 
 @media (min-width: 850px) {
+	#header-C {
+		padding: 0 50px;
+	}
+	
 	h1 {
 		font-size: calc(84px + 1.1vw);
 	}
@@ -276,5 +276,17 @@ h2 {
 	
 	#backgroundCodeEditor {
 		font-size: 1.25vw;
+	}
+}
+
+@media (min-width: 1440px) {
+	#header-C {
+		padding: 0 calc(530px - 33.33vw);
+	}
+}
+
+@media (min-width: 1590px) {
+	#header-C {
+		
 	}
 }
