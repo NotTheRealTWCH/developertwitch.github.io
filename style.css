@@ -191,7 +191,7 @@ h2 {
 	font-family: 'Roboto Mono', monospace;
 	height: 100%;
 	line-height: 1.25em;
-	padding-top: 0.5em;
+	padding-top: 0.4em;
 }
 
 .backgroundCodeEditor__pane__lineNumber {
@@ -287,6 +287,6 @@ h2 {
 
 @media (min-width: 1590px) {
 	#header-C {
-		
+		padding: 0;
 	}
 }
