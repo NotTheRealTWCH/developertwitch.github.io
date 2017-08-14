@@ -14,7 +14,7 @@ function setMaxHeight() {
 	panePadding = window.innerWidth * 1.25 / 100 * 40 / 100;
 	extraSpace = editorPane.offsetHeight - paneHeight - panePadding;
 	
-	if (extraSpace => 94.6) {
+	if (extraSpace >= 94.6) {
 		let maxHeight = landingPage.offsetHeight - extraSpace + 94.6 + "px";
 		landingPage.style.maxHeight = maxHeight;
 	}
