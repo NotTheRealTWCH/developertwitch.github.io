@@ -91,23 +91,13 @@ h2 {
 	margin-top: 10px;
 }
 
-#landingPage__CallToActionBtn-C {
-	display: flex;
-	justify-content: space-between;
-	margin: 0 auto;
-	margin-top: 50px;
-	width: 450px;
-	
-	display: none;
-}
-
-.callToActionBtn {
+#CTA--projects {
 	background-color: #1871b5;
 	border: none;
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-	padding: 10px 40px;
+	padding: 10px 50px;
 }
 
 #landingPage__mask {
