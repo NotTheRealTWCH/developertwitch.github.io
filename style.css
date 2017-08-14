@@ -88,7 +88,6 @@ h2 {
 	font-family: 'Roboto';
 	font-size: 0.32em;
 	letter-spacing: 1px;
-	margin-top: 10px;
 }
 
 #CTA--projects {
@@ -97,7 +96,7 @@ h2 {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-	padding: 10px 50px;
+	padding: 10px 70px;
 }
 
 #landingPage__mask {
