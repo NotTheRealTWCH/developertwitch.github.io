@@ -15,12 +15,10 @@ header {
 	align-items: center;
 	color: #eee;
 	display: flex;
-	height: calc(58px + 1.7vw);
+	height: 65px;
 	justify-content: space-between;
 	margin: 0 auto;
-	max-height: 80px;
 	max-width: 1440px;
-	min-height: 65px;
 	padding: 0 calc(2.1px + 5.6vw);
 }
 
@@ -66,9 +64,7 @@ nav {
 
 #landingPage {
 	color: #bbb;
-	height: calc(100vh - (58px + 1.7vw));
-	max-height: calc(100vh - 65px);
-	min-height: calc(100vh - 80px);
+	height: calc(100vh - 65px);
 	position: relative;
 }
 
@@ -232,6 +228,10 @@ h2 {
 }
 
 @media (orientation: portrait) {
+	#landingPage {
+		max-height: none;
+	}
+	
 	#backgroundCodeEditor {
 		font-size: 1.75vh;
 	}
@@ -244,12 +244,20 @@ h2 {
 }
 
 @media (min-width: 550px) {
+	#header-C {
+		height: calc(53.74px + 2.05vw);
+	}
+	
 	#logo--big {
 		display: block;
 	}
 	
 	#logo--small {
 		display: none;
+	}
+	
+	#landingPage {
+		height: calc(100vh - (53.74px + 2.05vw));
 	}
 }
 
@@ -270,11 +278,17 @@ h2 {
 	}
 }
 
-@media (min-width: 1280px) and (orientation: landscape) {
-	#landingPage {
-		max-height: 72vw;
+@media (min-width: 1280px) {
+	#header-C {
+		height: 80px;
 	}
 	
+	#landingPage {
+		height: calc(100vh - 80px);
+	}
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
 	#backgroundCodeEditor {
 		font-size: 1.25vw;
 	}
