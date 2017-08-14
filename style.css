@@ -55,13 +55,13 @@ nav {
 
 #navLink--contact {
 	border-bottom: 2px solid rgba(0,0,0,0);
-	color: #5495c9;
+	color: #478ec6;
 	font-weight: 500;
 	padding: 6px 0 4px 0;
 }
 
 #navLink--contact:hover {
-	border-color: #5495c9;
+	border-color: #478ec6;
 }
 
 #landingPage {
