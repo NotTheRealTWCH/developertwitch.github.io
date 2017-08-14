@@ -46,12 +46,22 @@ nav {
 
 .navLink {
 	border-bottom: 2px solid rgba(0,0,0,0);
-	padding-bottom: 4px;
-	padding-top: 6px;
+	padding: 6px 0 4px 0;
 }
 
 .navLink:hover {
 	border-color: #eee;
+}
+
+#navLink--contact {
+	border-bottom: 2px solid rgba(0,0,0,0);
+	color: #5495c9;
+	font-weight: 500;
+	padding: 6px 0 4px 0;
+}
+
+#navLink--contact:hover {
+	border-color: #5495c9;
 }
 
 #landingPage {
