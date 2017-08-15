@@ -107,6 +107,24 @@ h2 {
 	padding: 15px 85px; /*12 60*/
 }
 
+#CTA--scroll-C {
+	align-items: center;
+	bottom: 0;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+#CTA--scroll {
+    height: 50px;
+    stroke: #eee;
+    stroke-width: 35px;
+    width: 50px;
+}
+
 #landingPage__mask {
 	background-color: rgba(0,0,0,0.65);
 	height: 100%;
