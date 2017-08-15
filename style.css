@@ -53,13 +53,13 @@ nav {
 
 #navLink--contact {
 	border-bottom: 2px solid rgba(0,0,0,0);
-	color: #4999d8;
+	color: #419be2;
 	font-weight: 500;
 	padding: 6px 0 4px 0;
 }
 
 #navLink--contact:hover {
-	border-color: #4999d8;
+	border-color: #419be2;
 }
 
 #landingPage {
@@ -104,7 +104,7 @@ h2 {
 	font-size: 20px;
 	margin: 0 auto;
 	margin-top: 30px;
-	padding: 15px 85px; /*60*/
+	padding: 15px 85px; /*12 60*/
 }
 
 #landingPage__mask {
@@ -259,6 +259,10 @@ h2 {
 	#landingPage {
 		height: calc(100vh - (53.74px + 2.05vw));
 	}
+	
+	#CTA--projects {
+		padding: calc(20.44px - 0.99vw) calc(130.7px - 8.31vw);
+	}
 }
 
 @media (min-width: 850px) {
@@ -268,6 +272,10 @@ h2 {
 	
 	h1 {
 		font-size: calc(84px + 1.1vw);
+	}
+	
+	#CTA--projects {
+		padding: 12px 60px;
 	}
 }
 
