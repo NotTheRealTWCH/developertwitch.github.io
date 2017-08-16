@@ -118,8 +118,32 @@ h2 {
 	z-index: 1;
 }
 
+@keyframes arrowBounce {
+	25% {
+		bottom: 0;
+	}
+	
+	50% {
+		bottom: 10px;
+	}
+	
+	75% {
+		bottom: 10px;
+	}
+	
+	100% {
+		bottom: 0;
+	}
+}
+
 #CTA--scroll {
+	animation-name: arrowBounce;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
     height: 50px;
+	margin-bottom: 15px;
+	position: relative;
     stroke: #eee;
     stroke-width: 35px;
     width: 50px;
