@@ -27,3 +27,14 @@ window.addEventListener('resize', function() {
 		setMaxHeight();
 	}
 });
+
+const homeButton = document.getElementById('logo--big');
+const topOfSite = document.getElementsByTagName('body')[0];
+
+homeButton.addEventListener('click', function() {
+	event.preventDefault();
+
+	smoothScroll( topOfSite, {
+		offset: 2
+	});
+});
