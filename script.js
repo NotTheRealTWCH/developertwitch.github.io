@@ -43,7 +43,5 @@ bigLogo.addEventListener('click', function() {
 smallLogo.addEventListener('click', function () {
 	event.preventDefault();
 
-	smoothScroll(topOfSite, {
-		offset: 2
-	});
+	smoothScroll();
 });
