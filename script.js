@@ -28,13 +28,22 @@ window.addEventListener('resize', function() {
 	}
 });
 
-const homeButton = document.getElementById('logo--big');
+const bigLogo = document.getElementById('logo--big');
+const smallLogo = document.getElementById('logo--small');
 const topOfSite = document.getElementsByTagName('body')[0];
 
-homeButton.addEventListener('click', function() {
+bigLogo.addEventListener('click', function() {
 	event.preventDefault();
 
 	smoothScroll( topOfSite, {
+		offset: 2
+	});
+});
+
+smallLogo.addEventListener('click', function () {
+	event.preventDefault();
+
+	smoothScroll(topOfSite, {
 		offset: 2
 	});
 });
