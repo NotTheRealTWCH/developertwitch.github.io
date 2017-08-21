@@ -270,7 +270,12 @@ h1 {
 	color: #969896;
 }
 
+#contactPage {
+	font-size: 10vw;
+}
+
 #contactHeading {
+	font-size: 1.7em;
 	text-align: center;
 }
 
