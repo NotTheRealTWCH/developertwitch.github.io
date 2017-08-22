@@ -297,6 +297,10 @@ h1 {
 	width: 85vw;
 }
 
+.contactForm__textInput {
+	height: 30px;
+}
+
 @media (orientation: portrait) {
 	#landingPage {
 		max-height: none;
