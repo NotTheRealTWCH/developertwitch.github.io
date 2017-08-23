@@ -281,11 +281,13 @@ h1 {
 }
 
 #contactPage {
+	background-color: grey;
 	font-size: 10vw;
+	padding-top: 20px;
 }
 
 #contactHeading {
-	font-size: 1.7em;
+	font-size: 1em;
 	text-align: center;
 }
 
