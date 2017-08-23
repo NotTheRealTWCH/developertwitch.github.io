@@ -301,22 +301,34 @@ h1 {
 }
 
 .contactForm__input {
-	border: 1px solid black;
+	border: 2px solid #419be2;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
 	font-size: 0.8rem;
 	height: 50px;
-	justify-content: flex-end;
+	justify-content: center;
+	padding: 0 8px;
+}
+
+.contactForm__input__label {
+	color: #419be2;
+	font-weight: 500;
+	margin-bottom: 2px;
 }
 
 .contactForm__textInput {
 	/*height: 50px;*/
 	border: none;
 	display: block;
-	flex-grow: 1;
 	font-size: 1rem;
+	font-weight: bold;
+	outline: none;
 	width: 100%;
+}
+
+.contactForm__textInput:focus + .contactForm__input__label {
+	display: none;
 }
 
 #contactForm__subject {
