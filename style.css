@@ -294,6 +294,8 @@ h1 {
 #contactForm {
 	display: flex;
 	flex-direction: column;
+	height: 300px;
+	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 600px;
 	width: 90vw;
