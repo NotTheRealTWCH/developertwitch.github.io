@@ -141,10 +141,13 @@
 			<h2 id="contactHeading">Let's get in contact!</h2>
 			<form id='contactForm' action='' method='POST'>
 				<div class='contactForm__input'>
-					<span>Name</span>
-					<input class='contactForm__textInput' type='text' name='name' placeholder='Name' />
+					<span class='contactForm__input__label'>Name</span>
+					<input class='contactForm__textInput' type='text' name='name' placeholder='Name'/>
 				</div>
-				<input class='contactForm__textInput' type='email' name='_replyto' placeholder='Email'/>
+				<div class='contactForm__input'>
+					<span class='contactForm__input__label'>Email</span>
+					<input class='contactForm__textInput' type='email' name='_replyto' placeholder='Email'/>
+				</div>
 				<select id='contactForm__subject'>
 					<option>Business inquiry</option>
 					<option>I would like to connect with you</option>
