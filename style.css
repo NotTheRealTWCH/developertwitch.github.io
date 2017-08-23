@@ -298,7 +298,7 @@ h1 {
 }
 
 .contactForm__textInput {
-	height: 50px;
+	height: 80px;
 }
 
 @media (orientation: portrait) {
