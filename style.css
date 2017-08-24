@@ -342,7 +342,6 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	height: 55px;
-	padding: 0 8px;
 }
 
 #contactForm__subject::-ms-expand {
@@ -359,9 +358,32 @@ h1 {
 	font-family: inherit;
 	font-size: 1.1rem;
 	font-weight: 500;
-	height: 20px;
+	height: 100%;
 	outline: none;
+	padding: 0 8px;
 }
+
+#contactForm__subject:invalid {
+  color: gray;
+}
+
+#contactForm__subject--default {
+  display: none;
+}
+
+.contactForm__subject__options {
+  color: black;
+}
+
+/*
+#contactForm__subject--default {
+	display: none;
+}
+
+.contactForm__subject__options {
+	color: black;
+}
+*/
 
 #contactForm__input__message {
 	background-color: white;
