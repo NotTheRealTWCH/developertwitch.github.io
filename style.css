@@ -304,6 +304,11 @@ h1 {
 	width: 90vw;
 }
 
+#contact__email {
+	color: #419be2;
+	text-decoration: none;
+}
+
 #contactForm {
 	display: flex;
 	flex-direction: column;
