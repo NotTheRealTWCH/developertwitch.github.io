@@ -375,16 +375,6 @@ h1 {
   color: black;
 }
 
-/*
-#contactForm__subject--default {
-	display: none;
-}
-
-.contactForm__subject__options {
-	color: black;
-}
-*/
-
 #contactForm__input__message {
 	background-color: white;
 	border: 2px solid grey;
@@ -400,7 +390,6 @@ h1 {
 	font-family: inherit;
 	font-size: 1.1rem;
 	font-weight: 500;
-	margin-top: 3px;
 	outline: none;
 	resize: none;
 	width: 100%;
