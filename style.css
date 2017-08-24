@@ -352,6 +352,7 @@ h1 {
 	appearance: none;
 	-moz-appearance: none;
 	-webkit-appearance: none;
+	background-color: white;
 	border: none;
 	display: block;
 	font-family: inherit;
