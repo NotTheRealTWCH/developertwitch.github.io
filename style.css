@@ -313,7 +313,6 @@ h1 {
 	flex-direction: column;
 	height: 55px;
 	justify-content: center;
-	margin-top: 2px;
 	padding: 0 8px;
 }
 
@@ -322,6 +321,7 @@ h1 {
 	display: none;
 	font-size: 0.8rem;
 	font-weight: 500;
+	margin-top: 2px;
 }
 
 .contactForm__textInput {
