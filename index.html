@@ -145,10 +145,11 @@
 				</div>
 				<div id='contactForm__input__subject'>
 					<label class='contactForm__input__label'>Subject</label>
-					<select id='contactForm__subject'>
-						<option>Business inquiry</option>
-						<option>I would like to connect with you</option>
-						<option>Something's wrong on your site</option>
+					<select id='contactForm__subject' required>
+						<option id='contactForm__subject--default' value='' disabled selected>Subject</option>
+						<option class='contactForm__subject__options'>Business inquiry</option>
+						<option class='contactForm__subject__options'>I would like to connect with you</option>
+						<option class='contactForm__subject__options'>Something's wrong on your site</option>
 					</select>
 				</div>
 				<div id='contactForm__input__message'>
