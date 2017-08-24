@@ -45,3 +45,47 @@ smallLogo.addEventListener('click', function () {
 
 	smoothScroll();
 });
+
+// CONTACT FORM INPUT ON FOCUS EFFECTS
+const textInputs = document.getElementsByClassName('contactForm__textInput');
+const textInputContainer = document.getElementsByClassName('contactForm__input');
+const subjectInput = document.getElementById('contactForm__subject');
+const messageInput = document.getElementById('contactForm__message');
+const messageInputContainer = document.getElementById('contactForm__input__message');
+const contactFormLabels = document.getElementsByClassName('contactForm__input__label');
+
+textInputs[0].addEventListener('focus', function () {
+	contactFormLabels[0].style.display = 'block';
+	textInputContainer[0].style.borderColor = '#419be2';
+});
+
+textInputs[0].addEventListener('blur', function () {
+	if (!textInputs[0].value) {
+		contactFormLabels[0].style.display = 'none';
+	}
+	textInputContainer[0].style.borderColor = 'grey';
+});
+
+textInputs[1].addEventListener('focus', function () {
+	contactFormLabels[1].style.display = 'block';
+	textInputContainer[1].style.borderColor = '#419be2';
+});
+
+textInputs[1].addEventListener('blur', function () {
+	if (!textInputs[1].value) {
+		contactFormLabels[1].style.display = 'none';
+	}
+	textInputContainer[1].style.borderColor = 'grey';
+});
+
+messageInput.addEventListener('focus', function() {
+	contactFormLabels[3].style.display = 'block';
+	messageInputContainer.style.borderColor = '#419be2';
+});
+
+messageInput.addEventListener('blur', function () {
+	if (!messageInput.value) {
+		contactFormLabels[3].style.display = 'none';
+	}
+	messageInputContainer.style.borderColor = 'grey';
+});
