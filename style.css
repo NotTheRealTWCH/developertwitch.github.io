@@ -305,7 +305,6 @@ h1 {
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	font-size: 0.8rem;
 	height: 50px;
 	justify-content: center;
 	padding: 0 8px;
@@ -313,6 +312,8 @@ h1 {
 
 .contactForm__input__label {
 	color: #419be2;
+	display: block;
+	font-size: 0.8rem;
 	font-weight: 500;
 	margin-bottom: 2px;
 }
@@ -321,26 +322,58 @@ h1 {
 	/*height: 50px;*/
 	border: none;
 	display: block;
+	font-family: inherit;
 	font-size: 1rem;
-	font-weight: bold;
+	font-weight: 500;
 	outline: none;
 	width: 100%;
 }
 
-.contactForm__textInput:focus + .contactForm__input__label {
-	display: none;
+#contactForm__input__subject {
+	background-color: white;
+	border: 2px solid #419be2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 50px;
+	padding: 0 8px;
+}
+
+#contactForm__subject::-ms-expand {
+    display: none;
 }
 
 #contactForm__subject {
-	/*height: 50px;*/
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: none;
+	display: block;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 500;
+	height: 20px;
+	outline: none;
+}
+
+#contactForm__input__message {
+	background-color: white;
+	border: 2px solid #419be2;
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	padding: 8px 8px;
 }
 
 #contactForm__message {
-	height: 100px;
-}
-
-#CTA--contact {
-	
+	border: none;
+	flex-grow: 1;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 500;
+	outline: none;
+	resize: none;
+	width: 100%;
 }
 
 @media (orientation: portrait) {
