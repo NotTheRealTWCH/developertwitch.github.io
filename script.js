@@ -78,9 +78,18 @@ textInputs[1].addEventListener('blur', function () {
 	textInputContainer[1].style.borderColor = 'grey';
 });
 
+subjectInput.addEventListener('click', function() {
+	if (subjectInput.value) {
+		subjectInput.style.paddingTop = '16px';
+		contactFormLabels[2].style.display = 'block';
+	}
+});
+
 messageInput.addEventListener('focus', function() {
 	contactFormLabels[3].style.display = 'block';
 	messageInputContainer.style.borderColor = '#419be2';
+	messageInput.style.paddingTop = '0';
+
 });
 
 messageInput.addEventListener('blur', function () {
@@ -88,4 +97,5 @@ messageInput.addEventListener('blur', function () {
 		contactFormLabels[3].style.display = 'none';
 	}
 	messageInputContainer.style.borderColor = 'grey';
+	messageInput.style.paddingTop = '7px';
 });
