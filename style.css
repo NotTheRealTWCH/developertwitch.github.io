@@ -271,9 +271,12 @@ h1 {
 }
 
 #aboutPage {
+	background-color: grey;
 	font-size: 3vw;
 	margin: 0 auto;
 	width: 90vw;
+
+	display: none;
 }
 
 #aboutHeading {
@@ -281,20 +284,21 @@ h1 {
 }
 
 #contactPage {
-	background-color: grey;
 	font-size: 10vw;
-	padding-top: 20px;
+	padding: 20px 0;
 }
 
 #contactHeading {
+	color: #419be2;
 	font-size: 1em;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
 #contactForm {
 	display: flex;
 	flex-direction: column;
-	height: 400px;
+	height: 440px;
 	justify-content: space-between;
 	margin: 0 auto;
 	max-width: 600px;
@@ -302,7 +306,7 @@ h1 {
 }
 
 .contactForm__input {
-	border: 2px solid #419be2;
+	border: 2px solid grey;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -313,7 +317,7 @@ h1 {
 
 .contactForm__input__label {
 	color: #419be2;
-	display: block;
+	display: none;
 	font-size: 0.8rem;
 	font-weight: 500;
 	margin-bottom: 2px;
@@ -332,7 +336,7 @@ h1 {
 
 #contactForm__input__subject {
 	background-color: white;
-	border: 2px solid #419be2;
+	border: 2px solid grey;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -359,7 +363,7 @@ h1 {
 
 #contactForm__input__message {
 	background-color: white;
-	border: 2px solid #419be2;
+	border: 2px solid grey;
 	display: flex;
 	flex-direction: column;
 	height: 200px;
@@ -375,6 +379,15 @@ h1 {
 	outline: none;
 	resize: none;
 	width: 100%;
+}
+
+#CTA--contact {
+	background-color: #1871b5;
+	border: none;
+	color: white;
+	font-family: inherit;
+	font-size: 18px;
+	height: 50px;
 }
 
 @media (orientation: portrait) {
