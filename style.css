@@ -34,7 +34,7 @@ header {
 	text-decoration: none;
 }
 
-nav {
+#header__nav {
 	display: flex;
 	font-size: 1.1rem;
 	justify-content: space-between;
@@ -290,7 +290,8 @@ h1 {
 
 #contactHeading {
 	color: #419be2;
-	font-size: 1em;
+	font-size: 0.9em;
+	font-weight: 500;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -389,6 +390,20 @@ h1 {
 	font-family: inherit;
 	font-size: 18px;
 	height: 50px;
+}
+
+footer {
+	background-color: #121519;
+	color: #ddd;
+}
+
+#footer__nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 40px 0;
+	width: 80vw;
 }
 
 @media (orientation: portrait) {
