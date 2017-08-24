@@ -313,6 +313,7 @@ h1 {
 	flex-direction: column;
 	height: 55px;
 	justify-content: center;
+	margin-top: 2px;
 	padding: 0 8px;
 }
 
