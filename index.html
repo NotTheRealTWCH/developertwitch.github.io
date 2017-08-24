@@ -123,7 +123,7 @@
 					in Sydney, Australia; with the heart of an entrepreneur and a passion for technology.</h2>
 				<p>Q. How did you learn web development?<br/> A. <br/>
 					Q. Why web development?<br/>
-					A. I fell in love with web development when I realised that I could create products and services at a cafe while eating brunch. That meant that I could create something tangible and useful from anywhere in the world and I find that quite extraordinary.<br/>
+					A. I fell in love with web development when I realised that I could create products at a cafe while eating brunch. That meant that I could create something tangible and useful from anywhere in the world and I find that quite extraordinary.<br/>
 					Q. What are your future aspirations?<br/>
 					A. <br/>
 					Q. How did you get the name Twitch?<br/>
@@ -136,19 +136,25 @@
 			<h2 id="contactHeading">Let's get in contact!</h2>
 			<form id='contactForm' action='' method='POST'>
 				<div class='contactForm__input'>
-					<span class='contactForm__input__label'>Name</span>
+					<label class='contactForm__input__label'>Name</label>
 					<input class='contactForm__textInput' type='text' name='name' placeholder='Name'/>
 				</div>
 				<div class='contactForm__input'>
-					<span class='contactForm__input__label'>Email</span>
+					<label class='contactForm__input__label'>Email</label>
 					<input class='contactForm__textInput' type='email' name='_replyto' placeholder='Email'/>
 				</div>
-				<select id='contactForm__subject'>
-					<option>Business inquiry</option>
-					<option>I would like to connect with you</option>
-					<option>Something's wrong on your site</option>
-				</select>
-				<textarea id='contactForm__message'></textarea>
+				<div id='contactForm__input__subject'>
+					<label class='contactForm__input__label'>Subject</label>
+					<select id='contactForm__subject'>
+						<option>Business inquiry</option>
+						<option>I would like to connect with you</option>
+						<option>Something's wrong on your site</option>
+					</select>
+				</div>
+				<div id='contactForm__input__message'>
+					<label class='contactForm__input__label'>Message</label>
+					<textarea id='contactForm__message' placeholder='Message'></textarea>
+				</div>
 				<input id='CTA--contact' type='submit'/>
 			</form>
 		</section>
