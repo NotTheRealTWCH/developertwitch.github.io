@@ -134,6 +134,7 @@
 		</div>
 		<section id='contactPage'>
 			<h2 id="contactHeading">Lets get in contact!</h2>
+			<address id='contact__address'>You can contact me at <a href='mailto:webmaster@example.com'>webmaster@example.com</a> or fill out the form below.</address>
 			<form id='contactForm' action='' method='POST'>
 				<div class='contactForm__input'>
 					<label class='contactForm__input__label'>Name</label>
@@ -144,7 +145,7 @@
 					<input class='contactForm__textInput' type='email' name='_replyto' placeholder='Email'/>
 				</div>
 				<div id='contactForm__input__subject'>
-					<label class='contactForm__input__label'>Subject</label>
+					<label id='contactForm__subject__label' class='contactForm__input__label'>Subject</label>
 					<select id='contactForm__subject' required>
 						<option id='contactForm__subject--default' value='' disabled selected>Subject</option>
 						<option class='contactForm__subject__options'>Business inquiry</option>
