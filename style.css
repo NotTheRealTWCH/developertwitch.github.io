@@ -270,13 +270,15 @@ h1 {
 	color: #969896;
 }
 
+#aboutPage-C {
+	background-color: #fcfcfc;
+	background-color: #f9f9f9;
+}
+
 #aboutPage {
-	background-color: grey;
 	font-size: 3vw;
 	margin: 0 auto;
 	width: 90vw;
-
-	display: none;
 }
 
 #aboutHeading {
@@ -285,6 +287,8 @@ h1 {
 
 #contactPage {
 	align-items: center;
+	background-color: #f9f9f9;
+	background-color: #fcfcfc;
 	display: flex;
 	flex-direction: column;
 	font-size: 10vw;
@@ -301,6 +305,7 @@ h1 {
 #contact__address {
 	font-size: 0.8rem;
 	margin-bottom: 15px;
+	max-width: 430px;
 	width: 90vw;
 }
 
