@@ -272,23 +272,22 @@ h1 {
 
 #aboutPage-C {
 	background-color: #fcfcfc;
-	background-color: #f9f9f9;
 }
 
 #aboutPage {
-	font-size: 3vw;
 	margin: 0 auto;
 	width: 90vw;
 }
 
 #aboutHeading {
-	font-size: 2em;
+	font-size: 1.2em;
+	margin-bottom: 10px;
 }
 
 #contactPage {
 	align-items: center;
-	background-color: #f9f9f9;
 	background-color: #fcfcfc;
+	background-color: grey;
 	display: flex;
 	flex-direction: column;
 	font-size: 10vw;
