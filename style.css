@@ -297,6 +297,7 @@ h1 {
 
 #aboutPage__leadToCTA {
 	display: block;
+	font-style: italic;
 	margin-bottom: 15px;
 }
 
