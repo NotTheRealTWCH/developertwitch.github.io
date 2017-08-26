@@ -281,11 +281,13 @@ h1 {
 
 #aboutHeading {
 	font-size: 1.2em;
+	font-weight: 500;
 	margin-bottom: 20px;
 }
 
 .aboutPage__question {
 	display: block;
+	font-weight: 500;
 }
 
 .aboutPage__answer {
