@@ -275,13 +275,13 @@ h1 {
 }
 
 #aboutPage {
-	margin: 0 auto;
+	margin: 20px auto;
 	width: 90vw;
 }
 
 #aboutHeading {
 	font-size: 1.2em;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .aboutPage__question {
@@ -291,6 +291,23 @@ h1 {
 .aboutPage__answer {
 	display: block;
 	margin-bottom: 15px;
+}
+
+#aboutPage__leadToCTA {
+	display: block;
+	margin-bottom: 15px;
+}
+
+#CTA--aboutContact {
+	align-items: center;
+	background-color: #1871b5;
+	color: white;
+	display: flex;
+	font-size: 18px;
+	height: 60px;
+	justify-content: center;
+	margin: 0 auto;
+	width: 90vw;
 }
 
 #contactPage {
