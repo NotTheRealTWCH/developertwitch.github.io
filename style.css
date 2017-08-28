@@ -271,11 +271,12 @@ h1 {
 }
 
 #aboutPage-C {
-	background-color: #fcfcfc;
+	background-color: #F5F7F9;
+	padding: 20px 0;
 }
 
 #aboutPage {
-	margin: 20px auto;
+	margin: 0 auto;
 	width: 90vw;
 }
 
