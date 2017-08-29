@@ -1,178 +1,565 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset='utf-8'/>
-		<meta name='viewport' content='width=device-width' initial-scale='1'/>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400i|Roboto+Mono:300' rel='stylesheet'>
-		<link rel='stylesheet' href='customreset.css'/>
-		<link rel='stylesheet' href='fonts.css'/>
-        <link rel='stylesheet' href='style.css'/>
-        <title>Twitch - Web Developer</title>
-    </head>
-    <body>
-		<header>
-			<div id='header-C'>
-				<a id='logo--big' href='#'>TWITCH</a>
-				<a id='logo--small' href='#'>TW</a>
-				<nav id='header__nav'>
-					<a class='navLink'>Projects</a>
-					<a class='navLink'>About</a>
-					<a id='navLink--contact'>Contact</a>
-				</nav>
-			</div>
-		</header>
-		
-		<div id='landingPage'>
-			<div id='heading-C'>
-				<section>
-					<h1>WEB DEVELOPER</h1>
-					<h2 id='mainSubtitle'>Creating multi-device websites and web applications</h2>
-					<button id='CTA--projects'>See Projects</button>
-				</section>
-			</div>
-			<div id='CTA--scroll-C'>
-				<svg id='CTA--scroll' viewbox='0 0 600 600'>
-  					<polyline points='90,243 306,387 522,243 '/>
-				</svg>
-			</div>
-			<div id='landingPage__mask'></div>
-			<div id='backgroundCodeEditor'>
-				<div id='backgroundCodeEditor__tree'>
-					<span class='backgroundCodeEditor__tree__text'><span class='icon-arrow_down'></span> <span class='icon-file'></span> Portfolio</span>
-					<div id='backgroundCodeEditor__tree__text--active'>
-						<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--1stepIn'><span class='icon-HTML'><span class='path1'></span><span class='path2'></span><span class='path3'></span><span class='path4'></span></span> meow.html</span>
-					</div>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--1stepIn'><span class='icon-sass'></span> purr.scss</span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--1stepIn'><span class='icon-css'></span> purr.css</span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--1stepIn'><span><span class='icon-javascript'><span class='path1'></span><span class='path2'></span></span> scratch.js</span></span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--1stepIn'><span class='icon-arrow_down'></span> <span class='icon-file'></span> Cat Photos</span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--2stepIn'><span class='icon-image'></span> mrwhiskers.jpeg</span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--2stepIn'><span class='icon-image'></span> garfield.jpeg</span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--2stepIn'><span class='icon-image'></span> tigger.jpeg</span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--1stepIn'><span class='icon-arrow_down'></span> <span class='icon-file'></span> Special Cats</span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--2stepIn'><span class='icon-image'></span> tigress.jpeg</span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--2stepIn'><span class='icon-image'></span> napoleon.jpeg</span>
-					<span class='backgroundCodeEditor__tree__text backgroundCodeEditor__tree__text--1stepIn'><span class='icon-arrow_right'></span> <span class='icon-file'></span> Secret Files</span>
-				</div>
-				<div id='backgroundCodeEditor__editor'>
-					<div id='backgroundCodeEditor__tab-C'>
-						<div id='backgroundCodeEditor__tab--active' class='backgroundCodeEditor__tab'>
-							<span><span class='icon-HTML'><span class='path1'></span><span class='path2'></span><span class='path3'></span><span class='path4'></span></span> meow.html</span>
-						</div>
-						<div class='backgroundCodeEditor__tab'>
-							<span><span class='icon-sass'></span> purr.scss</span>
-						</div>
-						<div class='backgroundCodeEditor__tab'>
-							<span><span class='icon-javascript'><span class='path1'></span><span class='path2'></span></span> scratch.js</span>
-						</div>
-					</div>
-					<div id='backgroundCodeEditor__pane'>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber backgroundCodeEditor__pane__lineNumber--singleDigit'>1</span><span class='backgroundCodeEditor__pane__code'>&lt;!DOCTYPE html&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber backgroundCodeEditor__pane__lineNumber--singleDigit'>2</span><span class='backgroundCodeEditor__pane__code'>&lt;<span class='text-htmlTags'>html</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber backgroundCodeEditor__pane__lineNumber--singleDigit'>3</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--1stepin'>&lt;<span class='text-htmlTags'>head</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber backgroundCodeEditor__pane__lineNumber--singleDigit'>4</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;<span class='text-htmlTags'>meta</span> <span class='text-tagAttributes'>charset</span>=<span class='text-tagAttributeValues'>&quot;utf-8&quot;</span>/&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber backgroundCodeEditor__pane__lineNumber--singleDigit'>5</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;<span class='text-htmlTags'>meta</span> <span class='text-tagAttributes'>name</span>=<span class='text-tagAttributeValues'>&quot;viewport&quot;</span> <span class='text-tagAttributes'>content</span>=<span class='text-tagAttributeValues'>&quot;width=device-width&quot;</span> <span class='text-tagAttributes'>initial-scale</span>=<span class='text-tagAttributeValues'>&quot;1&quot;</span>/&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber backgroundCodeEditor__pane__lineNumber--singleDigit'>6</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;<span class='text-htmlTags'>link</span> <span class='text-tagAttributes'>rel</span>=<span class='text-tagAttributeValues'>&quot;stylesheet&quot;</span> <span class='text-tagAttributes'>href</span>=<span class='text-tagAttributeValues'>&quot;purr.css&quot;</span>/&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber backgroundCodeEditor__pane__lineNumber--singleDigit'>7</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;<span class='text-htmlTags'>title</span>&gt;Twitch - Cat Developer&lt;/<span class='text-htmlTags'>title</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber backgroundCodeEditor__pane__lineNumber--singleDigit'>8</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--1stepin'>&lt;/<span class='text-htmlTags'>head</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber backgroundCodeEditor__pane__lineNumber--singleDigit'>9</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--1stepin'>&lt;<span class='text-htmlTags'>body</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>10</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'><span class='text-comments'>&lt;!-- www.catipsum.com --&gt;</span></span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>11</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;<span class='text-htmlTags'>h1</span>&gt;Cat Talk&lt;/<span class='text-htmlTags'>h1</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>12</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;<span class='text-htmlTags'>p</span> <span class='text-tagAttributes'>class</span>=<span class='text-tagAttributeValues'>&quot;catipsum&quot;</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>13</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>Cat ipsum dolor sit amet, meoooow hunt by meowing loudly at 5am next to human slave food</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>14</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>dispenser. Chase laser leave hair everywhere cats go for world domination and get video posted</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>15</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>to internet for chasing red dot brown cats with pink ears all of a sudden cat goes crazy. Sweet</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>16</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>beast human is washing you why halp oh the horror flee scratch hiss bite i am the best hide at</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>17</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>bottom of staircase to trip human. Hunt anything that moves eat a plant, kill a hand. Poop in a</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>18</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>handbag look delicious and drink the soapy mopping up water then puke giant foamy fur-balls.</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>19</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;/<span class='text-htmlTags'>p</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>20</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;<span class='text-htmlTags'>p <span class='text-tagAttributes'>class</span>=<span class='text-tagAttributeValues'>&quot;catipsum&quot;</span></span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>21</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>Vommit food and eat it again. Intently sniff hand rub face on everything freak human out make</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>22</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>funny noise mow mow mow mow mow mow success now attack human wake up human for food at 4am.</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>23</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>Milk the cow purr for no reason go into a room to decide you didn't want to be in there anyway</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>24</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>yet if it fits, i sits. Small kitty warm kitty little balls of fur white cat sleeps on a black</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>25</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>shirt sudden cat goes crazy. ask to go outside and ask to come inside and ask to go outside.</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>26</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;/<span class='text-htmlTags'>p</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>27</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;<span class='text-htmlTags'>p <span class='text-tagAttributes'>class</span>=<span class='text-tagAttributeValues'>&quot;catipsum&quot;</span></span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>28</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>That other cat smells funny you should really give me all the treats because i smell the best</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>29</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>and omg you finally got the right spot and i love you right now so rub face on owner yet peer</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>30</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>out window, chatter at birds, lure them to mouth. Playing with balls of wool destroy couch as</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>31</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>revenge scratch the postman wake up lick paw wake up owner meow meow. Run in circles. Cat slap</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>32</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>dog in face pet right here, no not there, here, no fool, right here that other cat smells funny</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>33</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>you should really give me all the treats because i smell the best and omg you finally got the</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>34</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>right spot and i love you right now but who's the baby. Cat slap dog in face spend all night</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>35</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--3stepin'>ensuring people don't sleep sleep all day. If it smells like fish eat as much as you wish.</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>36</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;/<span class='text-htmlTags'>p</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>37</span><span class='backgroundCodeEditor__pane__code'></span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>38</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--2stepin'>&lt;<span class='text-htmlTags'>script</span> <span class='text-tagAttributes'>src</span>=<span class='text-tagAttributeValues'>&quot;paws.js&quot;</span>&gt;&lt;/<span class='text-htmlTags'>script</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>39</span><span class='backgroundCodeEditor__pane__code backgroundCodeEditor__pane__code--1stepin'>&lt;/<span class='text-htmlTags'>body</span>&gt;</span></span>
-						<span class='backgroundCodeEditor__pane__line'><span class='backgroundCodeEditor__pane__lineNumber'>40</span><span class='backgroundCodeEditor__pane__code'>&lt;/<span class='text-htmlTags'>html</span>&gt;</span></span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<section>
-			
-		</section>
-		<section>
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	margin: 0;
+}
 
-		</section>
-		<div id='aboutPage-C'>
-			<section id='aboutPage'>
-				<h2 id='aboutHeading'>Welcome! My name's Ian, but my mates call me Twitch (my online alter ego). I'm a web developer based
-					in Sydney, Australia</h2>
-				<p>
-					<span class='aboutPage__question'>Q. How did you learn web development?</span>
-					<span class='aboutPage__answer'>A. I'm a self-taught developer with a love for learning and a passion for technology. I learnt everything off the internet by researching best practices and digging through forums such as Reddit's web development forum to find the latest web technologies and news.</span>
-					<span class='aboutPage__question'>Q. Why web development?</span>
-					<span class='aboutPage__answer'>A. I fell in love with web development when I realised that I could create products at a cafe while eating brunch. That meant that I could create something tangible and useful from anywhere in the world and I find that quite extraordinary.</span>
-					<span class='aboutPage__question'>Q. What are your aspirations?</span>
-					<span class='aboutPage__answer'>A. I would like to work in a small company/startup to gain more experience and be able to learn more about the inner workings of a company. One of my future aspirations is to have my own firm, consulting businesses on how to make their business more efficient and profitable through web technologies and automation.</span>
-					<span class='aboutPage__question'>Q. How did you get the name Twitch?</span>
-					<span class='aboutPage__answer'>A. In high school, I could do the voice of a video game character named Twitch. Because of that and the fact that he was my favourite character, my friends started calling me Twitch. It stuck with me as my nickname and online alias. It is now part of how I promote myself. What's more memorable? Some guy named Ian or Twitch?</span>
-				</p>
-				<span id='aboutPage__leadToCTA'></span>
-				<a id='CTA--aboutContact'>Contact Me</a>
-			</section>
-		</div>
-		<section id='contactPage'>
-			<h2 id="contactHeading">Lets get in contact!</h2>
-			<address id='contact__address'>Want to get to know me better or work with me? Let's get connected and have a chat :) <a id='contact__email' href='mailto:webmaster@example.com'>webmaster@example.com</a></address>
-			<form id='contactForm' action='' method='POST'>
-				<div class='contactForm__input'>
-					<label class='contactForm__input__label'>Name</label>
-					<input class='contactForm__textInput' type='text' name='name' placeholder='Name'/>
-				</div>
-				<div class='contactForm__input'>
-					<label class='contactForm__input__label'>Email</label>
-					<input class='contactForm__textInput' type='email' name='_replyto' placeholder='Email'/>
-				</div>
-				<div id='contactForm__input__subject'>
-					<label id='contactForm__subject__label' class='contactForm__input__label'>Subject</label>
-					<select id='contactForm__subject' required>
-						<option id='contactForm__subject--default' value='' disabled selected>Subject</option>
-						<option class='contactForm__subject__options'>Business inquiry</option>
-						<option class='contactForm__subject__options'>I would like to connect with you</option>
-						<option class='contactForm__subject__options'>Something's wrong on your site</option>
-					</select>
-				</div>
-				<div id='contactForm__input__message'>
-					<label class='contactForm__input__label'>Message</label>
-					<textarea id='contactForm__message' placeholder='Message'></textarea>
-				</div>
-				<input id='contactForm__sendBtn' type='submit' value='Send Message'/>
-			</form>
-		</section>
-		<footer>
-			<nav id='footer__nav'>
-				<a>Home</a>
-				<a>Projects</a>
-				<a>About</a>
-				<a>Contact</a>
-			</nav>
-		</footer>
+header {
+	background-color: #121519;
+}
 
-		<script src='simplesmoothscroll.js'></script>
-		<script src='script.js'value='Send'></script>
-    </body>
-</html>
+#header-C {
+	align-items: center;
+	color: #eee;
+	display: flex;
+	height: 65px;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1440px;
+	padding: 0 calc(2.1px + 5.6vw);
+}
+
+#logo--big {
+	color: inherit;
+	display: none;
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#logo--small {
+	color: inherit;
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#header__nav {
+	display: flex;
+	font-size: 1.1rem;
+	justify-content: space-between;
+	max-width: 250px;
+	min-width: 200px;
+	width: calc(136px + 20vw);
+}
+
+.navLink {
+	border-bottom: 2px solid rgba(0,0,0,0);
+	padding: 6px 0 4px 0;
+}
+
+.navLink:hover {
+	border-color: #eee;
+}
+
+#navLink--contact {
+	border-bottom: 2px solid rgba(0,0,0,0);
+	color: #419be2;
+	font-weight: 500;
+	padding: 6px 0 4px 0;
+}
+
+#navLink--contact:hover {
+	border-color: #419be2;
+}
+
+#landingPage {
+	color: #bbb;
+	height: calc(100vh - 65px);
+	position: relative;
+}
+
+#heading-C {
+	align-items: center;
+	color: #eee;
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10vw;
+	height: 100%;
+	justify-content: center;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	z-index: 1;
+}
+
+h1 {
+	font-size: 1.1em;
+	font-weight: 500;
+	letter-spacing: 2px;
+	line-height: 1.1em;
+	margin-bottom: 2px;
+}
+
+#mainSubtitle {
+	font-size: 0.32em;
+	letter-spacing: 1px;
+}
+
+#CTA--projects {
+	display: block;
+	background-color: #1871b5;
+	border: none;
+	color: white;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 15px 85px; /*12 60*/
+}
+
+#CTA--scroll-C {
+	align-items: center;
+	bottom: 0;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+@keyframes arrowBounce {
+	25% {
+		bottom: 0;
+	}
+	
+	50% {
+		bottom: 10px;
+	}
+	
+	75% {
+		bottom: 10px;
+	}
+	
+	100% {
+		bottom: 0;
+	}
+}
+
+#CTA--scroll {
+	animation-name: arrowBounce;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    height: 50px;
+	margin-bottom: 15px;
+	position: relative;
+    stroke: #eee;
+    stroke-width: 35px;
+    width: 50px;
+}
+
+#landingPage__mask {
+	background-color: rgba(0,0,0,0.65);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 0;
+}
+
+#backgroundCodeEditor {
+	background-color: #0f1012;
+	display: flex;
+	font-size: 16px;
+	height: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	z-index: -1;
+}
+
+#backgroundCodeEditor__tree {
+	display: none;
+}
+
+.backgroundCodeEditor__tree__text {
+	display: block;
+	padding: 0.38em 0;
+	padding-left: 1.2em;
+	padding-right: 1.4em;
+}
+
+#backgroundCodeEditor__tree__text--active {
+	background-color: #282a2e;
+}
+
+.backgroundCodeEditor__tree__text--1stepIn {
+	text-indent: 1.2em;
+}
+
+.backgroundCodeEditor__tree__text--2stepIn {
+	text-indent: 2.4em;
+}
+
+.icon-css {
+	color: #1871b5;
+}
+
+.icon-image {
+	color: #59a6ba;
+}
+
+#backgroundCodeEditor__editor {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	height: 100%;
+}
+
+#backgroundCodeEditor__tab--active {
+	background-color: #1b1f20;
+}
+
+#backgroundCodeEditor__tab-C {
+	display: flex;
+}
+
+.backgroundCodeEditor__tab {
+	align-items: center;
+	display: flex;
+	height: 2.8em;
+	justify-content: center;
+	text-align: center;
+	width: 13em;
+}
+
+#backgroundCodeEditor__pane {
+	background-color: #1b1f20;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto Mono', monospace;
+	height: 100%;
+	line-height: 1.25em;
+	padding-top: 0.4em;
+}
+
+.backgroundCodeEditor__pane__lineNumber {
+	padding: 0 1em;
+}
+
+.backgroundCodeEditor__pane__lineNumber--singleDigit {
+	padding-left: 1.5em;
+}
+
+.backgroundCodeEditor__pane__code--1stepin {
+	padding-left: 1.9em;
+}
+
+.backgroundCodeEditor__pane__code--2stepin {
+	padding-left: 3.8em;
+}
+
+.backgroundCodeEditor__pane__code--3stepin {
+	padding-left: 5.7em;
+}
+
+.text-htmlTags {
+	color: #cc6666;
+}
+
+.text-tagAttributes {
+	color: #f0c674;
+}
+
+.text-tagAttributeValues {
+	color: #de935f;
+}
+
+.text-comments {
+	color: #969896;
+}
+
+#aboutPage-C {
+	background-color: #F8F8F8;
+	padding: 25px 0;
+}
+
+#aboutPage {
+	margin: 0 auto;
+	width: 90vw;
+}
+
+#aboutHeading {
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.aboutPage__question {
+	display: block;
+	font-weight: 500;
+}
+
+.aboutPage__answer {
+	display: block;
+	margin-bottom: 15px;
+}
+
+#aboutPage__leadToCTA {
+	display: block;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+#CTA--aboutContact {
+	align-items: center;
+	background-color: #1871b5;
+	color: white;
+	display: flex;
+	font-size: 18px;
+	height: 60px;
+	justify-content: center;
+	margin: 0 auto;
+	width: 90vw;
+}
+
+#contactPage {
+	align-items: center;
+	background-color: #fcfcfc;
+	display: flex;
+	flex-direction: column;
+	font-size: 10vw;
+	padding: 25px 0;
+}
+
+#contactHeading {
+	color: #419be2;
+	font-size: calc(25.04px + 1.56vw);
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+#contact__address {
+	font-size: 1rem;
+	margin-bottom: 15px;
+	max-width: 430px;
+	width: 90vw;
+}
+
+#contact__email {
+	color: #419be2;
+	text-decoration: none;
+}
+
+#contactForm {
+	display: flex;
+	flex-direction: column;
+	height: 470px;
+	justify-content: space-between;
+	max-width: 550px;
+	width: 90vw;
+}
+
+.contactForm__input {
+	border: 2px solid grey;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	height: 55px;
+	justify-content: center;
+	padding: 0 10px;
+}
+
+.contactForm__input__label {
+	color: #419be2;
+	display: none;
+	font-size: 0.8rem;
+	font-weight: 500;
+}
+
+.contactForm__textInput {
+	border: none;
+	display: block;
+	font-family: inherit;
+	font-size: 1.1rem;
+	font-weight: 500;
+	outline: none;
+	width: 100%;
+}
+
+#contactForm__input__subject {
+	background-color: white;
+	border: 2px solid grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 55px;
+	position: relative;
+}
+
+#contactForm__subject__label {
+	padding: 0 10px;
+	position: absolute;
+	top: 7px;
+}
+
+#contactForm__subject::-ms-expand {
+    display: none;
+}
+
+#contactForm__subject {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background-color: white;
+	border: none;
+	display: block;
+	font-family: inherit;
+	font-size: 1.1rem;
+	font-weight: 500;
+	height: 100%;
+	outline: none;
+	padding: 0 10px;
+}
+
+#contactForm__subject:invalid {
+  color: gray;
+}
+
+#contactForm__subject--default {
+  display: none;
+}
+
+.contactForm__subject__options {
+  color: black;
+}
+
+#contactForm__input__message {
+	background-color: white;
+	border: 2px solid grey;
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	padding: 8px 10px;
+}
+
+#contactForm__message {
+	border: none;
+	flex-grow: 1;
+	font-family: inherit;
+	font-size: 1.1rem;
+	font-weight: 500;
+	outline: none;
+	padding-top: 7px;
+	resize: none;
+	width: 100%;
+}
+
+#contactForm__sendBtn {
+	background-color: #1871b5;
+	border: none;
+	color: white;
+	font-family: inherit;
+	font-size: 17px;
+	height: 55px;
+}
+
+footer {
+	background-color: #121519;
+	color: #ddd;
+}
+
+#footer__nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 40px 0;
+	width: 80vw;
+}
+
+@media (orientation: portrait) {
+	#landingPage {
+		max-height: none;
+	}
+	
+	#backgroundCodeEditor {
+		font-size: 1.75vh;
+	}
+}
+
+@media (min-width: 500px) {	
+	#mainSubtitle {
+		font-size: calc(13.5px + 0.5vw);
+	}
+
+	#contactForm__sendBtn {
+		width: 150px;
+	}
+}
+
+@media (min-width: 550px) {
+	#header-C {
+		height: calc(53.74px + 2.05vw);
+	}
+	
+	#logo--big {
+		display: block;
+	}
+	
+	#logo--small {
+		display: none;
+	}
+	
+	#landingPage {
+		height: calc(100vh - (53.74px + 2.05vw));
+	}
+	
+	#CTA--projects {
+		padding: calc(20.44px - 0.99vw) calc(130.7px - 8.31vw);
+	}
+}
+
+@media (min-width: 850px) {
+	#header-C {
+		padding: 0 50px;
+	}
+	
+	h1 {
+		font-size: calc(84px + 1.1vw);
+	}
+	
+	#CTA--projects {
+		padding: 12px 60px;
+	}
+}
+
+@media (min-width: 1100px){
+	#backgroundCodeEditor__tree {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 1280px) {
+	#header-C {
+		height: 80px;
+	}
+	
+	#landingPage {
+		height: calc(100vh - 80px);
+	}
+
+	#contactHeading {
+		font-size: 45px;
+	}
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+	#backgroundCodeEditor {
+		font-size: 1.25vw;
+	}
+}
+
+@media (min-width: 1440px) {
+	#header-C {
+		padding: 0 calc(530px - 33.33vw);
+	}
+}
+
+@media (min-width: 1590px) {
+	#header-C {
+		padding: 0;
+	}
+}
