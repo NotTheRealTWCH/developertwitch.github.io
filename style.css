@@ -320,18 +320,18 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	font-size: 10vw;
-	padding: 20px 0;
+	padding: 25px 0;
 }
 
 #contactHeading {
 	color: #419be2;
-	font-size: 0.9em;
+	font-size: 0.95em;
 	font-weight: 500;
 	margin-bottom: 10px;
 }
 
 #contact__address {
-	font-size: 0.8rem;
+	font-size: 1rem;
 	margin-bottom: 15px;
 	max-width: 430px;
 	width: 90vw;
@@ -347,7 +347,7 @@ h1 {
 	flex-direction: column;
 	height: 465px;
 	justify-content: space-between;
-	max-width: 600px;
+	max-width: 550px;
 	width: 90vw;
 }
 
@@ -446,13 +446,13 @@ h1 {
 	width: 100%;
 }
 
-#CTA--contact {
+#contactForm__sendBtn {
 	background-color: #1871b5;
 	border: none;
 	color: white;
 	font-family: inherit;
-	font-size: 18px;
-	height: 60px;
+	font-size: 17px;
+	height: 55px;
 }
 
 footer {
@@ -482,6 +482,10 @@ footer {
 @media (min-width: 500px) {	
 	#mainSubtitle {
 		font-size: calc(13.5px + 0.5vw);
+	}
+
+	#contactForm__sendBtn {
+		width: 150px;
 	}
 }
 
