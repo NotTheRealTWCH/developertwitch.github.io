@@ -57,6 +57,7 @@ const contactFormLabels = document.getElementsByClassName('contactForm__input__l
 textInputs[0].addEventListener('focus', function () {
 	contactFormLabels[0].style.display = 'block';
 	textInputContainer[0].style.borderColor = '#419be2';
+	textInputs[0].placeholder = '';
 });
 
 textInputs[0].addEventListener('blur', function () {
@@ -64,11 +65,13 @@ textInputs[0].addEventListener('blur', function () {
 		contactFormLabels[0].style.display = 'none';
 	}
 	textInputContainer[0].style.borderColor = 'grey';
+	textInputs[0].placeholder = 'Name';
 });
 
 textInputs[1].addEventListener('focus', function () {
 	contactFormLabels[1].style.display = 'block';
 	textInputContainer[1].style.borderColor = '#419be2';
+	textInputs[1].placeholder = '';
 });
 
 textInputs[1].addEventListener('blur', function () {
@@ -76,6 +79,7 @@ textInputs[1].addEventListener('blur', function () {
 		contactFormLabels[1].style.display = 'none';
 	}
 	textInputContainer[1].style.borderColor = 'grey';
+	textInputs[1].placeholder = 'Email';
 });
 
 subjectInput.addEventListener('click', function() {
@@ -89,13 +93,14 @@ messageInput.addEventListener('focus', function() {
 	contactFormLabels[3].style.display = 'block';
 	messageInputContainer.style.borderColor = '#419be2';
 	messageInput.style.paddingTop = '0';
-
+	messageInput.placeholder = '';
 });
 
 messageInput.addEventListener('blur', function () {
 	if (!messageInput.value) {
 		contactFormLabels[3].style.display = 'none';
+		messageInput.style.paddingTop = '7px';
 	}
 	messageInputContainer.style.borderColor = 'grey';
-	messageInput.style.paddingTop = '7px';
+	messageInput.placeholder = 'Message';
 });
