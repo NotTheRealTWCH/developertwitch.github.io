@@ -272,7 +272,7 @@ h1 {
 
 #aboutPage-C {
 	background-color: #F8F8F8;
-	padding: 20px 0;
+	padding: 25px 0;
 }
 
 #aboutPage {
@@ -325,7 +325,7 @@ h1 {
 
 #contactHeading {
 	color: #419be2;
-	font-size: 0.95em;
+	font-size: calc(25.04px + 1.56vw);
 	font-weight: 500;
 	margin-bottom: 10px;
 }
@@ -345,7 +345,7 @@ h1 {
 #contactForm {
 	display: flex;
 	flex-direction: column;
-	height: 465px;
+	height: 470px;
 	justify-content: space-between;
 	max-width: 550px;
 	width: 90vw;
@@ -539,6 +539,10 @@ footer {
 	
 	#landingPage {
 		height: calc(100vh - 80px);
+	}
+
+	#contactHeading {
+		font-size: 45px;
 	}
 }
 
