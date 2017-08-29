@@ -320,7 +320,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	font-size: 10vw;
-	padding: 25px 0;
+	padding: calc(11.69px + 4.16vw) 0;
 }
 
 #contactHeading {
@@ -539,6 +539,10 @@ footer {
 	
 	#landingPage {
 		height: calc(100vh - 80px);
+	}
+
+	#contactPage {
+		padding: 65px 0;
 	}
 
 	#contactHeading {
