@@ -272,11 +272,12 @@ h1 {
 
 #aboutPage-C {
 	background-color: #F8F8F8;
-	padding: 25px 0;
+	padding: calc(11.69px + 4.16vw) 0;
 }
 
 #aboutPage {
 	margin: 0 auto;
+	max-width: 530px;
 	width: 90vw;
 }
 
@@ -302,18 +303,6 @@ h1 {
 	margin-bottom: 15px;
 }
 
-#CTA--aboutContact {
-	align-items: center;
-	background-color: #1871b5;
-	color: white;
-	display: flex;
-	font-size: 18px;
-	height: 60px;
-	justify-content: center;
-	margin: 0 auto;
-	width: 90vw;
-}
-
 #contactPage {
 	align-items: center;
 	background-color: #fcfcfc;
@@ -325,8 +314,10 @@ h1 {
 
 #contactHeading {
 	color: #419be2;
+	display: flex;
 	font-size: calc(25.04px + 1.56vw);
 	font-weight: 500;
+	line-height: calc(20px + 1.3vw);
 	margin-bottom: 10px;
 }
 
@@ -539,6 +530,10 @@ footer {
 	
 	#landingPage {
 		height: calc(100vh - 80px);
+	}
+
+	#aboutPage-C {
+		padding: 65px 0;
 	}
 
 	#contactPage {
