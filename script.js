@@ -107,7 +107,7 @@ messageInput.addEventListener('blur', function () {
 
 // FORMSPREE FORM AJAX POST
 const request = new XMLHttpRequest();
-request.open('POST', 'https://formspree.io/ian@developetwitch.com', true);
+request.open('POST', '//formspree.io/ian@developetwitch.com', true);
 request.setRequestHeader('accept', 'application/json');
 
 const form = document.forms[0];
@@ -117,18 +117,4 @@ form.addEventListener('submit', function(evt) {
 
 	const formData = new FormData(form);
 	request.send(formData);
-
-	request.onreadystatechange = function () {
-		// <4 =  waiting on response from server
-		if (request.readyState < 4)
-			console.log('loading');
-		// 4 = Response from server has been completely loaded.
-		else if (request.readyState === 4) {
-			// 200 - 299 = successful
-			if (request.status == 200 && request.status < 300)
-				console.log('sent');
-			else
-				console.log('fail');
-		}
-	}
 });
