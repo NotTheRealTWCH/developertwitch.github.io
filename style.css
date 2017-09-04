@@ -315,16 +315,16 @@ h1 {
 #contactHeading {
 	color: #419be2;
 	display: flex;
-	font-size: calc(25.04px + 1.56vw);
+	font-size: calc(24.71px + 2.28vw);
 	font-weight: 500;
-	line-height: calc(20px + 1.3vw);
+	line-height: calc(18px + 1.5vw);
 	margin-bottom: 10px;
 }
 
 #contact__address {
 	font-size: 1rem;
 	margin-bottom: 15px;
-	max-width: 430px;
+	max-width: 397px;
 	width: 90vw;
 }
 
@@ -541,7 +541,8 @@ footer {
 	}
 
 	#contactHeading {
-		font-size: 45px;
+		font-size: 52px;
+		line-height: 22.8px;
 	}
 }
 
