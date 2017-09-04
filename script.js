@@ -104,3 +104,18 @@ messageInput.addEventListener('blur', function () {
 	messageInputContainer.style.borderColor = 'grey';
 	messageInput.placeholder = 'Message';
 });
+
+// FORMSPREE FORM AJAX POST
+const request = new XMLHttpRequest();
+request.open('POST', 'https://formspree.io/ian@developetwitch.com', true);
+request.setRequestHeader('accept', 'application/json');
+
+const form = document.getElementById('contactForm');
+
+form.addEventListener('submit', function(evt) {
+	evt.preventDefault();
+
+	const formData = new FormData(form);
+	
+	request.send(formData);
+});
