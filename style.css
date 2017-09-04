@@ -317,8 +317,8 @@ h1 {
 	display: flex;
 	font-size: calc(25.35px + 2.08vw);
 	font-weight: 500;
-	line-height: calc(18px + 1.5vw);
-	margin-bottom: 10px;
+	line-height: calc(18px + 1.4vw);
+	margin-bottom: calc(9.35px + 0.83vw);
 }
 
 #contact__address {
@@ -542,7 +542,8 @@ footer {
 
 	#contactHeading {
 		font-size: 52px;
-		line-height: 22.8px;
+		line-height: 35.92px;
+		margin-bottom: 20px;
 	}
 }
 
