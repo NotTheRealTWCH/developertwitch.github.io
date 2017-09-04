@@ -104,6 +104,3 @@ messageInput.addEventListener('blur', function () {
 	messageInputContainer.style.borderColor = 'grey';
 	messageInput.placeholder = 'Message';
 });
-	const formData = new FormData(form);
-	request.send(formData);
-});
