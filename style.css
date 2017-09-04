@@ -272,17 +272,18 @@ h1 {
 
 #aboutPage-C {
 	background-color: #F8F8F8;
+	font-size: calc(14.69px + 0.41vw);
 	padding: calc(11.69px + 4.16vw) 0;
 }
 
 #aboutPage {
 	margin: 0 auto;
-	max-width: 530px;
+	max-width: 690px;
 	width: 90vw;
 }
 
 #aboutHeading {
-	font-size: 1.2em;
+	font-size: calc(16.31px + 1.06vw);
 	font-weight: 500;
 	margin-bottom: 20px;
 }
@@ -533,7 +534,12 @@ footer {
 	}
 
 	#aboutPage-C {
+		font-size: 20px;
 		padding: 65px 0;
+	}
+
+	#aboutHeading {
+		font-size: 30px;
 	}
 
 	#contactPage {
