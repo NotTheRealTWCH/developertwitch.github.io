@@ -107,7 +107,7 @@ messageInput.addEventListener('blur', function () {
 
 // FORMSPREE FORM AJAX POST
 const request = new XMLHttpRequest();
-requestion.open('POST', '//formspree.io/ian@developetwitch.com', true);
+requestion.open('POST', 'https://formspree.io/ian@developetwitch.com', true);
 request.setRequestHeader('accept', 'application/json');
 
 const form = document.forms[0];
