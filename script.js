@@ -28,24 +28,6 @@ window.addEventListener('resize', function() {
 	}
 });
 
-const bigLogo = document.getElementById('logo--big');
-const smallLogo = document.getElementById('logo--small');
-const topOfSite = document.getElementsByTagName('body')[0];
-
-bigLogo.addEventListener('click', function() {
-	event.preventDefault();
-
-	smoothScroll( topOfSite, {
-		offset: 2
-	});
-});
-
-smallLogo.addEventListener('click', function () {
-	event.preventDefault();
-
-	smoothScroll();
-});
-
 // CONTACT FORM INPUT ON FOCUS EFFECTS
 const textInputs = document.getElementsByClassName('contactForm__textInput');
 const textInputContainer = document.getElementsByClassName('contactForm__input');
