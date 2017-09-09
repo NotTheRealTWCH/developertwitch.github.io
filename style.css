@@ -270,6 +270,40 @@ h1 {
 	color: #969896;
 }
 
+#projectsPage {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: calc(11.69px + 4.16vw) 0;
+}
+
+#projectsPage__title {
+	font-size: 50px;
+	font-weight: 500;
+	margin-bottom: calc(15px + 0.83vw);
+}
+
+#project-C {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 250vw;
+	justify-content: space-between;
+	width: 90vw;
+}
+
+.project {
+	align-items: center;
+	background-color: #121519;
+	color: white;
+	display: flex;
+	font-size: 5vw;
+	height: 80vw;
+	justify-content: center;
+	width: 80vw;
+}
+
 #aboutPage-C {
 	background-color: #F8F8F8;
 	font-size: calc(14.69px + 0.41vw);
@@ -501,6 +535,22 @@ footer {
 	#CTA--projects {
 		padding: calc(20.44px - 0.99vw) calc(130.7px - 8.31vw);
 	}
+
+	#project-C {
+		flex-direction: row;
+		height: auto;
+		justify-content: space-between;
+		max-width: 1150px;
+	}
+
+	.project {
+		align-items: center;
+		font-size: 2.5vw;
+		height: 28vw;
+		max-height: 350px;
+		max-width: 350px;
+		width: 28vw;
+	}
 }
 
 @media (min-width: 850px) {
@@ -531,6 +581,10 @@ footer {
 	
 	#landingPage {
 		height: calc(100vh - 80px);
+	}
+
+	.project {
+		font-size: 32px;
 	}
 
 	#aboutPage-C {
