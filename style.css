@@ -278,8 +278,8 @@ h1 {
 	padding: calc(11.69px + 4.16vw) 0;
 }
 
-#projectsPage__title {
-	font-size: 50px;
+#projectsPage__heading {
+	font-size: calc(25.35px + 2.08vw);
 	font-weight: 500;
 	margin-bottom: calc(15px + 0.83vw);
 }
