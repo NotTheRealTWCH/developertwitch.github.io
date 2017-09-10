@@ -101,3 +101,9 @@ form.addEventListener('submit', function(evt) {
 	
 	request.send(formData);
 });
+
+// LANDING PAGE CTA LINK
+const projectsCTA = document.getElementById('CTA--projects');
+projectsCTA.addEventListener('click', function() {
+	location.href = '#projectsPage';
+});
